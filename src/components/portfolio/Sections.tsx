@@ -151,6 +151,9 @@ export function Projects() {
             <div className="relative mt-8 flex flex-wrap gap-3">
               <a
                 href={project.githubUrl || "#projects"}
+                target={project.githubUrl ? "_blank" : undefined}
+                rel={project.githubUrl ? "noopener noreferrer" : undefined}
+                title={project.githubUrl || "GitHub repository"}
                 aria-label="GitHub repository"
                 className="glass inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-secondary"
               >
