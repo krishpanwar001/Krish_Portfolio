@@ -151,11 +151,11 @@ export function Projects() {
             <div className="relative mt-8 flex flex-wrap gap-3">
               <a
                 href={project.githubUrl || "#projects"}
-                aria-label="GitHub repository link — add your URL in src/data/profile.ts"
+                aria-label="GitHub repository"
                 className="glass inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-secondary"
               >
                 <Github className="size-4" aria-hidden="true" />
-                GitHub (add link)
+                {project.githubUrl || "GitHub (add link)"}
               </a>
               <a
                 href={project.liveUrl || "#home"}
