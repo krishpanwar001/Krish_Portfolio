@@ -155,7 +155,7 @@ export function Projects() {
                 className="glass inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-secondary"
               >
                 <Github className="size-4" aria-hidden="true" />
-                {project.githubUrl || "GitHub (add link)"}
+                GitHub
               </a>
               <a
                 href={project.liveUrl || "#home"}
