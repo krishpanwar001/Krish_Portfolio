@@ -29,7 +29,7 @@ export const navItems = [
 export const stats = [
   { value: "7.3", label: "Current B.Tech CGPA" },
   { value: "77.45%", label: "Class 12" },
-  { value: "78.33%", label: "Class 10" },
+  { value: "78.16%", label: "Class 10" },
   { value: "2025–2029", label: "B.Tech CSE" },
 ];
 
@@ -50,7 +50,7 @@ export const education = [
     degree: "Class 10",
     school: "Lala Jagdish Prasad Saraswati Vidya Mandir, Muzaffarnagar",
     period: "",
-    detail: "Percentage: 78.33%",
+    detail: "Percentage: 78.16%",
   },
 ];
 
@@ -68,7 +68,7 @@ export const project = {
     "A premium personal portfolio website designed to showcase education, technical skills, career goals, certifications, and professional profile.",
   tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
   // Replace these placeholders with real links when available.
-  githubUrl: "",
+  githubUrl: "https://github.com/krishpanwar001/Portfolio.git",
   liveUrl: "",
 };
 
