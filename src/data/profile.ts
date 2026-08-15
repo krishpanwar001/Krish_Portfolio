@@ -68,7 +68,7 @@ export const project = {
     "A premium personal portfolio website designed to showcase education, technical skills, career goals, certifications, and professional profile.",
   tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
   // Replace these placeholders with real links when available.
-  githubUrl: "https://github.com/krishpanwar001/Portfolio.git",
+  githubUrl: "https://github.com/krishpanwar001/Krish_Portfolio.git",
   liveUrl: "",
 };
 
